@@ -1,0 +1,20 @@
+# 로컬 의존성과 환경 설정
+/.analysis_deps/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+__MACOSX/
+
+# 압축 해제된 실행 자산과 생성 결과
+final_model_assets/
+outputs/
+
+# 중복 압축본은 제외하고 실행용 ZIP만 Git LFS로 관리
+*.zip
+!final_model_assets.zip
